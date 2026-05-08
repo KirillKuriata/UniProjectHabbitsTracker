@@ -1,7 +1,7 @@
 from collections import namedtuple
 
 
-class Habbit:
+class Habit:
 
     def __init__(self, calendarOfCompleting, name, descripition):
         self.calendarOfCompleting = dict(calendarOfCompleting)
@@ -9,4 +9,3 @@ class Habbit:
         self.description = descripition
 
 
-    def setCompleted():
