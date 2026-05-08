@@ -1,3 +1,5 @@
+from datetime import date
+
 from Habit import Habit
 
 
@@ -8,4 +10,5 @@ class DailyHabit(Habit):
         self.isComplited = dict(isComplited)
 
     def setComplited(self):
-        isComplited
+        self.isComplited.keys(date.today()).item(true)
+        print(self.isComplited)
